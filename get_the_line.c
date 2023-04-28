@@ -29,19 +29,4 @@ exit(EXIT_SUCCESS);
 }
 return input_buffer;
 }
-/**
-* main - a simple program that reads a line from stdin using get_the_line()
-*
-* Return: 0 on success
-*/
-int main(void)
-{
-char *line;
-do {
-printf("$ ");
-line = get_the_line();
-printf("You entered: %s", line);
-free(line);
-} while (1);
-return 0;
-}
+

@@ -1,3 +1,4 @@
+#include <stdio.h>
 #include "main.h"
 /**
 * main - the main function for the shell
@@ -12,7 +13,6 @@ char *readline = NULL;
 while (1)
 {
 k = getline(&readline, &l, stdin);
-signal(SIGINT, sigintHandler);
 if (k == EOF)
 {
 free(readline);
