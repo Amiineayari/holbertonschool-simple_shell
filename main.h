@@ -11,4 +11,4 @@ char **parse_the_line(char *readline);
 void sigintHandler(__attribute__((unused)) int sig_num);
 int execute_the_line(char **command);
 int main(void);
-#endi
+#endif

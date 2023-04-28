@@ -16,7 +16,6 @@ command = parse_the_line(readline);
 status = execute_the_line(command);
 /* Free the memory used by the command array */
 free(command);
-}
-{return status;
+return status;
 }
 

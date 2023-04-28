@@ -31,5 +31,5 @@ if (status == -1)
 {
 printf("Error: execve failed\n");
 }
-{return status;
+return status;
 }

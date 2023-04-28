@@ -27,6 +27,6 @@ if (strcmp(input_buffer, "exit\n") == 0)
 free(input_buffer);
 exit(EXIT_SUCCESS);
 }
-{return input_buffer;
+return input_buffer;
 }
 
