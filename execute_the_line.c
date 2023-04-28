@@ -4,7 +4,13 @@
 #include <unistd.h>
 #include "main.h"
 #include <signal.h>
-
+/**
+*execute_the_line - Execute the command from the input buffer
+*
+*@buuf: The input buffer containing the command
+*
+*Return: The exit status of the executed command
+*/
 int execute_the_line(char *buuf[])
 {
 char *path = "/bin/";
@@ -25,6 +31,5 @@ if (status == -1)
 {
 printf("Error: execve failed\n");
 }
-return status;
+{return status;
 }
-  
