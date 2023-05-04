@@ -1,42 +1,57 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-	<meta charset="UTF-8">
-	      <title>Shell Project</title>
-	      </head>
-	      <body>
-		<header>
-				<h1>Shell Project</h1>
-						<p>A simple Unix shell written in C.</p>
-						     </header>
-							<main>
-									<h2>Introduction</h2>
-											<p>This project is a simple Unix shell that allows users to enter commands and execute them. The shell supports basic functionality such as running executables and executing built-in commands such as cd, exit, and help.</p>
+	<title>Simple Shell Project README</title>
+</head>
+<body>
+	<h1>Simple Shell Project README</h1>
+	<p>This project is a simple implementation of a shell, which is a command-line interface that allows users to interact with their computer system by executing commands.</p>
+	<h2>Getting Started</h2>
+<p>To get started with this project, you will need to clone the repository:</p>
+<code>git clone https://github.com/Amiineayari/holbertonschool-simple_shell.git</code>
 
-												<h2>Features</h2>
-														<ul>
-																	<li>Command line interface</li>
-																				<li>Supports running executables and built-in commands</li>
-																					     	     		 <li>Handles signal interrupt (CTRL-C)</li>
-																								 	     	    	      <li>Handles EOF (CTRL-D)</li>
-																														<li>Handles multiple arguments</li>
-																															    	     </ul>
+<h2>Compilation</h2>
+<p>To compile the program, run the following command:</p>
+<code>gcc -Wall -Werror -Wextra -pedantic *.c -o hsh</code>
 
-																																	<h2>Installation</h2>
-																																			<ol>
-																																						<li>Clone the repository</li>
-																																								<li>Compile the code using GCC: gcc -Wall -Werror -Wextra -pedantic *.c -o hsh</li>
-																																									    	     <li>Run the shell: ./hsh</li>
-																																										     	     	 </ol>
+<h2>Usage</h2>
+<p>To use the shell, run the following command:</p>
+<code>./hsh</code>
+<p>Once the shell is running, you can enter commands just as you would in a regular terminal. The shell supports many of the standard commands, as well as some custom commands specific to this implementation.</p>
 
-																																													<h2>Usage</h2>
-																																															<p>Once the shell is running, you can enter commands and execute them. Built-in commands such as cd, exit, and help are also available. Type 'help' for more information on the built-in commands.</p>
+<h2>Authors</h2>
+<p>This shell was created by Amine AYARI and his team at Holberton School.</p>
 
-																																																<h2>Contributing</h2>
-																																																		<p>Contributions are welcome! Please submit pull requests or open issues on Github.</p>
+<h2>License</h2>
+<p>This project is licensed under the MIT License - see the <a href="https://github.com/Amiineayari/holbertonschool-simple_shell/blob/main/LICENSE">LICENSE</a> file for details.</p>
+	
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Simple Shell Project README</title>
+</head>
+<body>
+	<h1>Simple Shell Project README</h1>
+	<p>This project is a simple implementation of a shell, which is a command-line interface that allows users to interact with their computer system by executing commands.</p>
+php
+Copy code
+<h2>Getting Started</h2>
+<p>To get started with this project, you will need to clone the repository:</p>
+<code>git clone https://github.com/Amiineayari/holbertonschool-simple_shell.git</code>
 
-																																																				 <h2>License</h2>
-																																																						<p>This project is licensed under the MIT License.</p>
-																																																							</main>
-																																																							</body>
-																																																							</html>
+<h2>Compilation</h2>
+<p>To compile the program, run the following command:</p>
+<code>gcc -Wall -Werror -Wextra -pedantic *.c -o hsh</code>
+
+<h2>Usage</h2>
+<p>To use the shell, run the following command:</p>
+<code>./hsh</code>
+<p>Once the shell is running, you can enter commands just as you would in a regular terminal. The shell supports many of the standard commands, as well as some custom commands specific to this implementation.</p>
+
+<h2>Authors</h2>
+<p>This shell was created by Amine AYARI and his team at Holberton School.</p>
+
+<h2>License</h2>
+<p>This project is licensed under the MIT License - see the <a href="https://github.com/Amiineayari/holbertonschool-simple_shell/blob/main/LICENSE">LICENSE</a> file for details.</p>
+</body>
+</html>
